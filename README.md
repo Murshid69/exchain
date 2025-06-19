@@ -1,30 +1,13 @@
-# OKTChain
-The Infrastructure of Decentralized Exchange
+Copyright 2025 OKX
 
-![banner](docs/images/chain.png)
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
 
-[![version](https://img.shields.io/github/tag/okex/exchain.svg)](https://github.com/okx/exchain/releases/latest)
-[![CircleCI](https://circleci.com/gh/okex/exchain/tree/dev.svg?style=shield)](https://circleci.com/gh/okex/exchain/tree/dev)
-[![codecov](https://codecov.io/gh/okex/okexchain/branch/master/graph/badge.svg)](https://codecov.io/gh/okex/okexchain)
-[![Go Report Card](https://goreportcard.com/badge/github.com/okx/exchain)](https://goreportcard.com/report/github.com/okx/exchain)
-[![license](https://img.shields.io/badge/license-Apache%202.0-green)](https://github.com/okx/exchain/blob/dev/LICENSE)
-[![LoC](https://tokei.rs/b1/github/okex/exchain)](https://github.com/okx/exchain)
-[![GolangCI](https://golangci.com/badges/github.com/okx/exchain.svg)](https://golangci.com/r/github.com/okx/exchain)
+    http://www.apache.org/licenses/LICENSE-2.0
 
-This repository hosts `OKTC`, the implementation of the OKTC based on the [Cosmos SDK](https://github.com/cosmos/cosmos-sdk).
-
-**Note**: Requires [Go 1.20](https://golang.org/dl/)
-
-## Getting Started
-
-- [Join the mainnet](https://github.com/okx/mainnet/blob/main/README.md)
-  
-___
-- [Join the testnet](https://github.com/okx/testnets/blob/master/README.md)
-
-___
-- [How to build a private chain](https://forum.okt.club/d/274-how-to-build-a-private-chain)
-
-
-
-
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
