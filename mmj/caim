@@ -1,0 +1,22 @@
+jobs:
+  security-scan:
+    runs-on: ubuntu-latest
+    permissions:
+      security-events: write
+      contents: read
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: MetaMask Security Code Scanner
+        uses: MetaMask/action-security-code-scanner@v1
+        with:
+          repo: ${{ github.repository }}
+          paths_ignored: |
+            node_modules
+            dist
+        env:
+          API_KEY: ${{ secrets.SECURITY_SCANNER_API_KEY }}
+          # Optional: Token untuk akses GitHub (lebih selamat)
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
